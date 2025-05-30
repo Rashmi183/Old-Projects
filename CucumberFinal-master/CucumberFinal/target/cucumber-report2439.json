@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2764902600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.testBaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 246000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.aaa()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test my Get Method",
+        "description": "",
+        "id": "first-rest-assured-test;test-my-get-method",
+        "after": [
+          {
+            "result": {
+              "duration": 1703900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.ccc()"
+            }
+          },
+          {
+            "result": {
+              "duration": 756400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestHooks.bbb()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7912158100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the get request",
+            "match": {
+              "location": "TestHooks.user_hit_the_get_request()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test",
+    "description": "",
+    "id": "first-rest-assured-test",
+    "keyword": "Feature",
+    "uri": "com/basic/hooksOfCucu/HooksTesting.feature"
+  }
+]
