@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-30T13:21:01.297Z",
+        "line": 26,
+        "name": "Validate Payment options",
+        "description": "",
+        "id": "makemytrip-tests;validate-payment-options;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29072839400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch MakeMyTrip Website",
+            "match": {
+              "location": "MakeMyTripStepDefs.launchAmazonWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5776941700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects from \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 18
+                }
+              ],
+              "location": "MakeMyTripStepDefs.userSelectsFrom(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4483289700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selects to \"Bengaluru\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bengaluru\"",
+                  "offset": 16
+                }
+              ],
+              "location": "MakeMyTripStepDefs.userSelectsTo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2707490300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects \"May 31\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"May 31\"",
+                  "offset": 13
+                }
+              ],
+              "location": "MakeMyTripStepDefs.userSelects(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10914679800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userClicksOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33589624900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on book now button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userClickOnBookNowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14994820800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User select radio button not to opt for secure trip",
+            "match": {
+              "location": "MakeMyTripStepDefs.userSelectRadioButtonNotToOptForSecureTrip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2754991000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks Add new Adult Button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userClicksAddNewAdultButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3524047000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters passenger informations - \"Test\", \"Singh\", \"1234567890\", \"a@a.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Singh\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1234567890\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"a@a.com\"",
+                  "offset": 68
+                }
+              ],
+              "location": "MakeMyTripStepDefs.userEntersPassengerInformations(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 564904600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on continue button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userClicksOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3902860000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User confirms details",
+            "match": {
+              "location": "MakeMyTripStepDefs.userConfirmsDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2699306400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User selects seats",
+            "match": {
+              "location": "MakeMyTripStepDefs.userSelectsSeats()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 823988200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on continue button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userClicksOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368589300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on continue button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userClicksOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098419000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User review AddOns",
+            "match": {
+              "location": "MakeMyTripStepDefs.userReviewAddOns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1571933700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks Proceed to pay button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userClicksProceedToPay()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9830825200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User must be displayed with payment options with Pay Now Button",
+            "match": {
+              "location": "MakeMyTripStepDefs.userMustBeDisplayedWithPaymentOptionsWithPayNowButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MakeMyTrip Tests",
+    "description": "",
+    "id": "makemytrip-tests",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/makeMyTrip.feature",
+    "tags": []
+  }
+]
